@@ -14,6 +14,10 @@ Additionally, we experimented with **ensemble models**:
 - Base models achieved moderate performance (Dice ~0.3–0.35).
 - Ensemble models did not significantly improve results due to weak individual predictions and GPU limitations.
 - BCEWithLogitsLoss proved more stable than Focal Loss.
+- Local cross-validation (IoU / Dice): ~0.40  
+- Final competition metric (Dice on hidden test set): **0.633**  
+
+Despite limited compute resources (RTX 2070, 8 GB VRAM), we achieved a competitive score by experimenting with multiple architectures (U-Net, DeepLabV3+, PSPNet) and ensemble strategies.  
 
 Despite modest metrics, this work demonstrates the **full experimental workflow**:
 1. Training and evaluation of segmentation models  
