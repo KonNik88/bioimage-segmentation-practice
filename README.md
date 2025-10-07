@@ -1,4 +1,9 @@
 # Bioimage Segmentation Practice
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.1.0-red.svg)](https://pytorch.org/)
+[![segmentation_models_pytorch](https://img.shields.io/badge/SMP-0.3.0-green.svg)](https://github.com/qubvel/segmentation_models.pytorch)
+[![Albumentations](https://img.shields.io/badge/Albumentations-1.3.0-orange.svg)](https://albumentations.ai/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project explores **semantic segmentation** of biological microscopy images using different architectures:
 - **UNet**
